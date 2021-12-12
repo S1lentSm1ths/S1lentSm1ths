@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/intoGame">
+
+    <fragment
+        android:id="@+id/intoGame"
+        android:name="com.vsc.quizfragments.IntoGame"
+        android:label="fragment_into_game"
+        tools:layout="@layout/fragment_into_game" >
+        <action
+            android:id="@+id/intoTheGameToFirstFragment"
+            app:destination="@id/firstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.vsc.quizfragments.FirstFragment"
+        android:label="FirstFragment"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/firstToSecond"
+            app:destination="@id/secondFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.vsc.quizfragments.SecondFragment"
+        android:label="SecondFragment"
+        tools:layout="@layout/fragment_second">
+        <action
+            android:id="@+id/secondFragmentToThird"
+            app:destination="@id/thirdFragment" />
+        <argument
+            android:name="questions"
+            app:argType="integer" />
+        <argument
+            android:name="trueCounter"
+            app:argType="integer" />
+        <argument
+            android:name="wrongCounter"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="com.vsc.quizfragments.ThirdFragment"
+        android:label="fragment_third"
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/thirdFaragmentToEndScreen"
+            app:destination="@id/endScreen" />
+        <argument
+            android:name="questions"
+            app:argType="integer" />
+        <argument
+            android:name="trueCounter"
+            app:argType="integer" />
+        <argument
+            android:name="wrongCounter"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/endScreen"
+        android:name="com.vsc.quizfragments.EndScreen"
+        android:label="fragment_end_screen"
+        tools:layout="@layout/fragment_end_screen" >
+        <argument
+            android:name="questions"
+            app:argType="integer" />
+        <argument
+            android:name="trueCounter"
+            app:argType="integer" />
+        <argument
+            android:name="wrongCounter"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.vsc.quizfragments.MyProfileFragment"
+        android:label="MyProfileFragment" />
+    <fragment
+        android:id="@+id/myHistory"
+        android:name="com.vsc.quizfragments.MyHistory"
+        android:label="fragment_my_history"
+        tools:layout="@layout/fragment_my_history" />
+</navigation>

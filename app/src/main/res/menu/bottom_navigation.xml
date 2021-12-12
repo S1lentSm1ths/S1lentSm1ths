@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/intoGame"
+        android:icon="@drawable/icon_settings"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/myProfileFragment"
+        android:icon="@drawable/icon_settings"
+        android:title="@string/myProfile" />
+
+    <item
+        android:id="@+id/myHistory"
+        android:icon="@drawable/icon_settings"
+        android:title="@string/your_level" />
+</menu>

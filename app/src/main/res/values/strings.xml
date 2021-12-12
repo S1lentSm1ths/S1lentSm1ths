@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">quizFragments</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_the_game">start the game</string>
+    <string name="welcome_to_the_quiz">Welcome to the quiz!</string>
+    <string name="do_the_trees_burn">Do the trees burn?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="second_question">Second question</string>
+    <string name="is_this_building_in_london">Is this building in London?</string>
+    <string name="typing_means_pressing_random_buttons_on_the_keyboard">Typing means pressing random buttons on the keyboard</string>
+    <string name="enter_yes_or_no_for_the_facts_below">Enter Yes or No for the facts below…</string>
+    <string name="type_yes_or_no">Type Yes or No</string>
+    <string name="submit_your_answer">Submit your answer</string>
+    <string name="your_result_is">Your result is:</string>
+    <string name="see_your_answers">See your answers</string>
+    <string name="background">background</string>
+    <string name="type_your_answer">Type your answer…</string>
+    <string name="the_trees_are_tall">Are the trees tall?</string>
+    <string name="settings">settings</string>
+    <string name="arrow_back">arrow_back</string>'
+    <string name="drawer_open">Open drawer layout</string>
+    <string name="drawer_close">Close drawer layout</string>
+    <string name="this_is_your_search_history">This is your qustions` history.</string>
+    <string name="quiz_master">Quiz master</string>
+    <string name="your_level">My level</string>
+    <string name="myProfile">My profile</string>
+</resources>
